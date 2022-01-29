@@ -113,18 +113,58 @@ node-express
 # Atividade Prática
 . Criar uma CLI simples para procurar arquivos em um diretório  
 . Instalar local para desenvolvimento e testes  
-. Passo a passo para publicar a CLI no NPM
+. Passo a passo para publicar a CLI no NPM  
+<https://github.com/hmschreiner/node-cli>
 
 ---
 
 # O que é o Commander.js?
-### Ferramenta completa para criação de CLIs em Node.js
-### Definição de comandos, parametro de opções e execução de ações
-### Descrição para cada comando e menu de ajuda com exemplos de uso
+. Ferramenta completa para criação de CLIs em Node.js  
+. Definição de comandos, parametro de opções e execução de ações  
+. Descrição para cada comando e menu de ajuda com exemplos de uso  
 
 # Atividade Prática
-### Criar uma CLI usando o Commander.js
-### Criar uma ferramenta que mostra o clima atual de uma cidade pelo nome
-### Usar a API do ClimaTempo
+. Criar uma CLI usando o Commander.js  
+. Criar uma ferramenta que mostra o clima atual de uma cidade pelo nome  
+. Usar a API do ClimaTempo  
+<https://github.com/hmschreiner/node-clima-cli>
 
+---
+
+# Criação de templates com Pug
+
+## Objetivos da Aula
+1. Criar templates em HTML usando o Pug
+2. Gerar templates avançados com Pug
+3. Integrar o Pug com Express.js
+
+## O que é Pug?
+. É um template engine de alta performance  
+. Implementado com JavaScript para Node.js e Browsers  
+. Conhecido anteriormente como "Jade"  
+. Pode ser integrado com Express  
+
+## Pros e Contras
+**Pros:**  
+. Escrever mais HTML com menos código  
+. Código parecido com parágrafos, o que a legibilidade do código e simplifica   projetos com vários desenvolvedores  
+. Não há fechamento de tags; É usado indentação para identificar aninhamento de tags  
+. É possível escrever JavaScript dentro dos templates  
+**Contras:**  
+. Espaços em branco importam - e muito! Um mínimo erro de indentação pode trazer grandes problemas para seu código!  
+. Não é possível usar código HTML de qualquer lugar; É preciso converter para Pug antes de usar  
+
+# Atividade Prática
+<https://github.com/hmschreiner/pug-template>
+
+---
+
+# Integrando Pug com Express
+. Um template engine possibilita o uso de arquivos de template estatico na sua aplicação
+. Em tempo de execução, variáveis dentro desse template podem ser substituídas por valores reais
+. Transforma o template em HTML e manda para o client
+. Facilita o desenvolvimento de páginas HTML dinamicas usando conteúdo estático
+
+# Atividade Prática
+<https://github.com/hmschreiner/pug-express.git>
 
