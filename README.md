@@ -79,3 +79,52 @@ node-express
 * Criar usuários (POST)
 * Modificar usuário (PUT)
 * Remover usuário (DELETE)
+
+---
+
+**Aula 2**
+
+## Desenvolvimento Ferramentas de Linha de comando em Node.js
+
+# Objetivos
+
+1. Entender o conceito de CLI (Command Line Interface)
+2. Exemplos de CLI em Node.js
+3. Criar uma ferramenta CLI
+
+# REQUISITOS BÁSICOS
+
+. Conhecer JavaScript e seus fundamentos  
+. Familiaridade com comandos no terminal  
+. Nodde e NPM instalados na máquina
+
+# O que é uma CLI?
+. Ferramenta que disponibiliza uma interface de linha de comando para executar tarefas no terminal  
+. Normalmente são criadas através de Shell Script  
+. Automatiza uma tarefa através de um arquivo executável  
+. Pode ser facilmente distribuído em várias plataformas  
+
+# Por que criar uma CLI em Node.js
+. A popularidade do Node.js se dá ao rico ecossistema de pacotes  
+. Mais de 900.000 pacotes registrados no NPM  
+. CLIs podem ser facilmente distribuídas e consumidas em múlpiplas plataformas  
+. Explorar o ecossistema, incluindo sua grande quantidade de pacotes focados em CLI
+
+# Atividade Prática
+. Criar uma CLI simples para procurar arquivos em um diretório  
+. Instalar local para desenvolvimento e testes  
+. Passo a passo para publicar a CLI no NPM
+
+---
+
+# O que é o Commander.js?
+### Ferramenta completa para criação de CLIs em Node.js
+### Definição de comandos, parametro de opções e execução de ações
+### Descrição para cada comando e menu de ajuda com exemplos de uso
+
+# Atividade Prática
+### Criar uma CLI usando o Commander.js
+### Criar uma ferramenta que mostra o clima atual de uma cidade pelo nome
+### Usar a API do ClimaTempo
+
+
